@@ -49,12 +49,12 @@ body {
   
   .add-note, 
   .archive-button {
-    background-color: #2ecc71; /* Hijau */
+    background-color: #2ecc71; 
     color: white;
   }
   
   .delete-button {
-    background-color: #e74c3c; /* Merah */
+    background-color: #e74c3c; 
     color: white;
   }
   
@@ -63,7 +63,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   grid-gap: 20px;                          
-  grid-auto-rows: min-content;  /* Tetap penting */        
+  grid-auto-rows: min-content;         
   overflow-y: auto; 
 }
 
@@ -74,8 +74,8 @@ body {
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   word-break: break-all;
-  max-height: 200px; /* Atur tinggi maksimum sesuai kebutuhan */
-  overflow-y: auto;   /* Aktifkan scroll untuk kartu catatan */
+  max-height: 200px; 
+  overflow-y: auto;  
 }
   
   
