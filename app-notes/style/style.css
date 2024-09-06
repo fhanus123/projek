@@ -1,0 +1,106 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-area {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  input[type='text'],
+  textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .add-note, 
+  .archive-button {
+    background-color: #2ecc71; /* Hijau */
+    color: white;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c; /* Merah */
+    color: white;
+  }
+  
+  .notes-grid,
+.archive-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 20px;                          
+  grid-auto-rows: min-content;  /* Tetap penting */        
+  overflow-y: auto; 
+}
+
+.note-card {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  word-break: break-all;
+  max-height: 200px; /* Atur tinggi maksimum sesuai kebutuhan */
+  overflow-y: auto;   /* Aktifkan scroll untuk kartu catatan */
+}
+  
+  
+  .note-header { 
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 10px;
+    }
+  
+  .note-title {
+      font-weight: bold;
+  }
+  
+  .note-date {
+    font-size: 0.8em;
+    color: #bdc3c7;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .button-container button {
+    margin-left: 10px; 
+  } 

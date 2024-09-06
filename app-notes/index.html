@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>app-notes</title>
+    <title>Notes App</title>
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <div class="container">
-        <h1>catatan saya</h1>
+        <h1>Catatan Saya</h1>
         <div class="input-area">
-            <input type="text" id="title" placeholder="judul catatan">
-            <textarea id="body" placeholder="Tulis catatan di sini ......"></textarea>
-            <button id="add-button">Tambahkan catatan</button>
+            <input type="text" id="note-title" placeholder="Judul Catatan...">
+            <textarea id="note-content" placeholder="Tulis catatan disini..."></textarea>
+            <button id="add-note">Tambah Catatan</button>
         </div>
-        <div class="notes-list" id="notes-list">
-
+        <div class="notes-grid">
+            <!-- Catatan akan ditampilkan disini -->
+        </div>
+        
+        <h2>Arsip</h2>
+        <div class="archive-grid">
+            <!-- Catatan yang diarsipkan akan ditampilkan disini -->
         </div>
     </div>
     <script src="js/script.js"></script>
