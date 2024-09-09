@@ -5,22 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Notes App</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="container">
-        <h1>Catatan Saya</h1>
+        <app-bar></app-bar> 
         <div class="input-area">
             <input type="text" id="note-title" placeholder="Judul Catatan...">
             <textarea id="note-body" placeholder="Tulis catatan disini..."></textarea>
-            <button id="add-note">Tambah Catatan</button>
+            <button id="add-note">
+                <i class="fas fa-plus-circle"></i> Tambah Catatan
+            </button>
         </div>
-        <div class="notes-grid">
-        </div>
-        
+        <search-form></search-form> 
+        <div class="notes-grid"></div>
         <h2>Arsip</h2>
-        <div class="archive-grid">
-        </div>
+        <div class="archive-grid"></div>
     </div>
-    <script src="js/script.js"></script>
+    <script src="js/script.js" type="module"></script> 
 </body>
-</html>
+</html> 
