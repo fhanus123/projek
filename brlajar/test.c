@@ -23,19 +23,35 @@
 // }   
 
 
+// #include<stdio.h>
+// int main() {
+//     int x=5;
+//     int y=10;
+
+//     printf("hasil x<y : %d \n",x<y);
+//     printf("hasil x>y : %d \n",x>y);
+//     printf("hasil x<=y : %d \n",x<=y);
+//     printf("hasil x>=y : %d \n",x>=y);
+//     printf("hasil x==y : %d \n",x==y);
+//     printf("hasil x!=y : %d \n",x!=y);
+
+//     printf("hasil x==x : %d \n",x==x);
+//     printf("hasil x!=x : %d \n",x!=x);
+//     return 0;
+// }
+
 #include<stdio.h>
 int main() {
-    int x=5;
-    int y=10;
+    int uang = 6000;
+    int hujan = 0 ;
+    printf("uang>5000 dan tidak hujan : %d \n",(uang>5000) && (!hujan));
 
-    printf("hasil x<y : %d \n",x<y);
-    printf("hasil x>y : %d \n",x>y);
-    printf("hasil x<=y : %d \n",x<=y);
-    printf("hasil x>=y : %d \n",x>=y);
-    printf("hasil x==y : %d \n",x==y);
-    printf("hasil x!=y : %d \n",x!=y);
+    uang = 6000;
+    hujan = 1 ;
+    printf("uang>5000 dan tidak hujan : %d \n",(uang>5000) && (!hujan));
 
-    printf("hasil x==x : %d \n",x!=y);
-    printf("hasil x!=x : %d \n",x!=x);
-    return 0;
+    uang = 500;
+    int barang = 7000;
+    printf("saya ingin membeli barang : %d \n ",(uang>barang)) && (barang<uang);
+    return 0 ;
 }
