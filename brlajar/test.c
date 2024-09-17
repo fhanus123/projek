@@ -40,18 +40,49 @@
 //     return 0;
 // }
 
+// #include<stdio.h>
+// int main() {
+//     int uang = 6000;
+//     int hujan = 0 ;
+//     printf("uang>5000 dan tidak hujan : %d \n",(uang>5000) && (!hujan));
+
+//     uang = 6000;
+//     hujan = 1 ;
+//     printf("uang>5000 dan tidak hujan : %d \n",(uang>5000) && (!hujan));
+
+//     uang = 500;
+//     int barang = 7000;
+//     printf("saya ingin membeli barang : %d \n ",(uang>barang) && (barang<uang));
+
+//     int polusi = 200 ;
+//     hujan = 1 ;
+//     printf("bila polusi sudah terlalu tinggi maka keinginan turunya hujan : %d \n",(polusi<hujan) && (!hujan));
+//     return 0 ;
+// }
+
+// #include<stdio.h>
+// int main () {
+//     int i;
+//     i =3 ;
+//     printf(" Nilai i : %d %d \n", i++);
+//     i = 3 ;
+//     printf("%d\n", ++i);
+    
+//     return 0 ;
+// }
+
 #include<stdio.h>
-int main() {
-    int uang = 6000;
-    int hujan = 0 ;
-    printf("uang>5000 dan tidak hujan : %d \n",(uang>5000) && (!hujan));
-
-    uang = 6000;
-    hujan = 1 ;
-    printf("uang>5000 dan tidak hujan : %d \n",(uang>5000) && (!hujan));
-
-    uang = 500;
-    int barang = 7000;
-    printf("saya ingin membeli barang : %d \n ",(uang>barang)) && (barang<uang);
-    return 0 ;
-}
+    int main() {
+    int a ;
+    printf("contoh if di suatu kasus \n");
+    printf("ketikan nilai integer : ");
+    scanf("%d",&a);
+    if (a > 10)
+    {
+        printf("nilai a positif %d \n",a);
+    }
+    else
+    {
+        printf("Nilai a negatif %d \n",a);
+    }
+    }
