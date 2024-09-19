@@ -76,5 +76,7 @@ switch (jawab) {
 if (hadiah === "") {
     alert("kamu gagal mendapatkan hadiah")
 } else {
-    alert("selamat kamu memenangkan hadiah " + hadiah + "")
+    alert("Selamat kamu mendapatkan " + hadiah )
 }
+
+
