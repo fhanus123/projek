@@ -1,0 +1,16 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: antiquewhite;
+    padding: 30px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin-top: 20vh;
+}
