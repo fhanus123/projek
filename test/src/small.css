@@ -1,0 +1,35 @@
+body {
+    background-color: orange;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* grid-template-rows: 100px 100px; */
+  }
+
+  .wrapper div {
+    border: 1px dashed black;
+    padding: 4px;
+    background-color: white;
+  }
+
+  .wrapper {
+    padding: 8px;
+    border: 1px dashed black;
+    background-color: yellow;
+  }
+   
+  /* minimal layar ukuran sedang */
+  @media screen and (min-width: 480px) {
+    h1 {
+      color: blue;
+    }
+  }
+   
+  /* minimal layar ukuran besar */
+  @media screen and (min-width: 768px) {
+    h1 {
+      text-align: center;
+    }
+  }
